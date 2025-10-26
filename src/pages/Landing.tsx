@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { WalletButton } from "@/components/wallet/WalletButton";
+import VincentAuth from "@/components/vincent/VincentAuth";
 import {
   ArrowRight,
   Sparkles,
@@ -38,6 +39,7 @@ const Landing = () => {
             >
               Launch App
             </Button>
+            <VincentAuth></VincentAuth>
           </div>
         </div>
       </header>
